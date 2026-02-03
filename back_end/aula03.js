@@ -1,8 +1,8 @@
 // Define o peso da pessoa em quilogramas (kg)
-const peso = 80;
+const peso = 44;
 
 // Define a altura da pessoa em metros
-const altura = 1.80;
+const altura = 1.65;
 
 // Calcula o IMC usando a fórmula: peso / (altura²)
 const imc = peso / Math.pow(altura, 2);
