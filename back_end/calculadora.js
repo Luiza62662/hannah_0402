@@ -40,11 +40,54 @@ rl.question('Digite o primeiro número: ', (num1) => {
           resultado = n1 * n2;
           break;
 
+           case 'abs':
+          resultado = Math.abs (n1);
+          //alert (resultado);
+          //Math.abs (n2);
+          //console.log(n1);
+          //console.log(n2);
+          break;
+
+        case 'acos':
+          resultado = Math.acos (n1);
+          //alert (resultado);
+          //Math.acos (n2);
+          //console.log(n1);
+          //console.log(n2);
+          break;
+          
+          case 'asin':
+          resultado = Math.asin (n1);
+          //alert (resultado);
+          //Math.asin (n2);
+          //console.log(n1);
+          //console.log(n2);
+          break;
+          
+          case 'ceil':
+          resultado = Math.ceil (n1);
+          //alert (resultado);
+          //Math.ceil (n2);
+          //console.log(n1);
+          //console.log(n2);
+          break;
+          
+          
+          case 'floor':
+          resultado = Math.floor (n1);
+          //alert (resultado);
+          //Math.floor (n2);
+          //console.log(n1);
+          //console.log(n2);
+          break;
+          
         case '/':
           // Evita divisão por zero
           resultado = n2 !== 0 ? n1 / n2 : "Erro: Divisão por zero!";
           break;
-
+         case 'abs':
+          resultado = n1 * n2;
+          break;
         default:
           // Caso o operador seja inválido
           resultado = "Operador inválido!";
